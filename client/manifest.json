@@ -1,0 +1,15 @@
+{
+  "name": "NexusCRM JS",
+  "short_name": "NexusCRM",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#070b16",
+  "theme_color": "#38bdf8",
+  "icons": [
+    {
+      "src": "/public/icons/icon.svg",
+      "sizes": "128x128",
+      "type": "image/svg+xml"
+    }
+  ]
+}

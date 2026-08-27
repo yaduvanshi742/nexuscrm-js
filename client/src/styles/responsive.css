@@ -1,0 +1,22 @@
+@media (max-width: 1180px) {
+  .stats-grid { grid-template-columns: repeat(2, 1fr); }
+  .dashboard-grid { grid-template-columns: 1fr; }
+  .app-shell { grid-template-columns: 230px 1fr; }
+}
+
+@media (max-width: 860px) {
+  .app-shell { display: block; }
+  .sidebar { position: static; height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
+  .nav-list { grid-template-columns: repeat(3, 1fr); }
+  .topbar, .resource-toolbar { align-items: flex-start; flex-direction: column; }
+  .login-screen { grid-template-columns: 1fr; padding: 24px; }
+  .modal-form { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 560px) {
+  .main-panel { padding: 18px; }
+  .stats-grid { grid-template-columns: 1fr; }
+  .nav-list { grid-template-columns: 1fr 1fr; }
+  .bar-row { grid-template-columns: 1fr; }
+  .login-hero h1 { font-size: 42px; }
+}
